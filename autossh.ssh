@@ -1,0 +1,8 @@
+#!/bin/bash
+sudo apt-get install gcc make
+wget http://fossies.org/linux/privat/autossh-1.4e.tgz
+tar -xf autossh-1.4e.tgz
+cd autossh-1.4e
+./configure
+make
+sudo make install
